@@ -1,0 +1,136 @@
+body {
+  background: url("https://i.postimg.cc/Z5yKHmVP/machine-learning-fotor-20250406193254.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Gabarito", sans-serif;
+  margin: 20px;
+}
+
+.logo {
+  text-align: end;
+}
+
+.logo img {
+  width: 40%;
+}
+
+.titulo h2 {
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px #ff1b7b;
+}
+
+/* Caixa principal do jogo */
+.conteudo-jogo {
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 15px #ff1b7b;
+  margin: 30px auto;
+  padding: 30px;
+  height: 50vh;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.conteudo-jogo:hover {
+  background: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 15px #19caca;
+}
+
+/* Títulos e textos */
+h2, p {
+  color: white;
+  margin: 0;
+}
+
+/* Estrutura do questionário */
+.questionario {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Área de conteúdo */
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  gap: 20px;
+}
+
+/* Estilo da pergunta */
+.pergunta {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: white;
+  text-shadow: 0 0 5px #ff1b7b;
+}
+
+/* Progresso da pergunta */
+.progresso {
+  text-align: end;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #ffffffcc;
+}
+
+/* Área das respostas */
+.respostas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Botões de resposta */
+.botao-resposta {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  text-align: left;
+  background: linear-gradient(90deg, #ff1b7b, #ff5ea6);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 8px #ff1b7b66;
+}
+
+.botao-resposta:hover {
+  background: linear-gradient(90deg, #19caca, #22f0f0);
+  transform: scale(1.02);
+  font-weight: 600;
+  box-shadow: 0 0 12px #19caca;
+}
+
+/* Tela de fim do jogo */
+.fim {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fim span {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: white;
+  text-shadow: 0 0 5px #ff1b7b;
+}
+.vidas {
+  text-align: end;
+  font-size: 1.5rem;
+  color: #ff1b7b;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
