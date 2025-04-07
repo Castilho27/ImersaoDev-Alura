@@ -1,0 +1,48 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo img {
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ff0000aa;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: darkred;
+}
+body {
+  background: url("https://i.postimg.cc/NjxNhkrM/destruida.png") no-repeat center center fixed;
+  background-size: cover;
+}
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #ff1744;
+  transition: all 0.3s ease;
+}
+}
+h1 {
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+}
