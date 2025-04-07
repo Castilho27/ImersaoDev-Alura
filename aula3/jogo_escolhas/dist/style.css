@@ -1,0 +1,82 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  height: 100%;
+}
+
+/* Logo Styles */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 150px;
+  width: auto;
+  z-index: 10;
+}
+
+/* Container com fundo e alinhamento central */
+.container {
+  background: url('https://i.postimg.cc/T3qYZD1Y/Bomba-Fundo-embassado.png') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Caixa de conteúdo */
+.content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px 40px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+/* Título */
+.content h2 {
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+
+/* Texto */
+.content p {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+/* Botão */
+button {
+  background-color: #FF6347;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1ABC9C;
+}
+
+/* Footer fixado no fim da tela */
+footer {
+  text-align: center;
+  padding: 10px;
+  color: #ccc;
+  font-size: 0.9em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
